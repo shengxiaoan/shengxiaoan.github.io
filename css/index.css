@@ -8,18 +8,13 @@
 .clearfix {*zoom: 1;}   /* IE6、7 专有 */
 body {
      background-color: #fafafa;
-     height: 3000px;
 }
 
 /*顶部导航开始*/
 .top {
-     width: 1349px;
+     width: 100%;
      height: 100px;
      background-color: #fff;
-     position: fixed;
-     width: 100%;
-     left: 0;
-     top: 0;
 }
 
 .top .header {
@@ -56,7 +51,6 @@ body {
 
 /*banner区域开始*/
 .banner {
-     margin-top: 100px;
      height: 629px;
      background: url(../images/banner.png) no-repeat top center;
 }
@@ -160,7 +154,7 @@ body {
      overflow: hidden;
 }
 
-.case_hd {
+.case_hd{
      width: 1004px;
      margin: 0 auto;
      border-top: 1px solid #cccccc;
@@ -172,7 +166,10 @@ body {
 }
 .case_bd{
      width: 1051px;
-     margin:80px auto 0;
+     margin-top: 80px;
+     margin-right: auto;
+     margin-bottom: 0;
+     margin-left: auto;
      position: relative;
 }
 .case_bd li{
@@ -232,3 +229,65 @@ body {
      display: block;
 }
 /*经典案例结束*/
+
+/*合作媒体开始*/
+.media{
+     width: 1105px;
+     margin: 0 auto;
+}
+.media_hd{
+     width: 1005px;
+     margin: 74px auto;
+     border-top: 1px solid #cccccc;
+}
+.media_hd img{
+     margin: -14px 419px;
+}
+.media_bd{
+     width: 1100px;
+     height: 197px;
+     overflow: hidden;
+}
+.media_bd ul{
+     width: 1105px;
+}
+.media_bd li{
+     width: 220px;
+     height: 65px;
+     float: left;
+     border-right: 1px dashed #cccccc;
+     border-bottom: 1px dashed #cccccc;
+     text-align: center;
+}
+.media_bd li img{
+     margin-top: 15px;}
+/*合作媒体结束*/
+
+/*底部开始*/
+.footer   {
+     height: 169px;
+     background-color: #212425;
+     margin-top: 100px;
+     overflow: hidden;
+}
+.subnav{
+     text-align: center;
+     margin-top: 50px;
+     color: #f0f1f1;
+}
+.subnav a{
+     text-decoration: none;
+     font-size: 14px;
+     color: #f0f1f1;
+     padding: 0 5px;
+}
+.banquan{
+     text-align: center;
+     overflow: hidden;
+}
+.footer span{
+     font-size: 14px;
+     color: #6a6b6b;
+     margin-top: 9px;
+}
+/*底部结束*/
