@@ -281,6 +281,9 @@ body {
      color: #f0f1f1;
      padding: 0 5px;
 }
+.subnav a:hover{
+     color:#2288f6;
+}
 .banquan{
      text-align: center;
      overflow: hidden;
